@@ -1,0 +1,84 @@
+/* just check the css  */
+
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body{
+    background-color: rgb(136, 136, 218);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.show-btn{
+    margin: 1rem 2rem;
+}
+button{
+    border-radius: 1.5rem;
+    padding: 0.7rem 1rem;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+h1{
+    color: rgb(153, 255, 0);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+input{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+footer{
+
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.socials{
+    font-size: 2rem;
+
+}
+
+a{
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 27px;
+    border: solid 2px rgb(2, 194, 253);
+}
+.made-by{
+    color: rgb(59, 59, 59);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
